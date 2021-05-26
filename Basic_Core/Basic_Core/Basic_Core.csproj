@@ -51,6 +51,7 @@
     <Compile Include="QuoAndReminder.cs" />
     <Compile Include="Swap.cs" />
     <Compile Include="Toss.cs" />
+    <Compile Include="Vowel.cs" />
     <Compile Include="Year.cs" />
   </ItemGroup>
   <ItemGroup>
