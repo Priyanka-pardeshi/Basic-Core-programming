@@ -15,6 +15,10 @@ namespace Basic_Core
             //Creating an obbject for an Toss class
             Toss Obj = new Toss();
             Obj.Coin();
+
+            Year ObjYear = new Year();
+            ObjYear.year(2020);
+
             Console.ReadKey();
         }
     }
