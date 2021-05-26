@@ -10,7 +10,12 @@ namespace Basic_Core
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C# .net Core Programming"); 
+            Console.WriteLine("Welcome to C# .net Core Programming");
+
+            //Creating an obbject for an Toss class
+            Toss Obj = new Toss();
+            Obj.Coin();
+            Console.ReadKey();
         }
     }
 }
