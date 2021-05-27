@@ -21,6 +21,11 @@ namespace Basic_Core
             {
                 Console.WriteLine("Winner is Tail");
             }
+            float persentageOfHead = (1 * 100/2);
+            Console.WriteLine("Persentage of geeting head:"+persentageOfHead);
+            float persentageOfTail = (1 * 100 / 2);
+            Console.WriteLine("Persentage of geeting head:" + persentageOfTail);
+
         }
     }
 }

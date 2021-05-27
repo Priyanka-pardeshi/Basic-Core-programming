@@ -10,11 +10,11 @@ namespace Basic_Core
     {
         public void swapValues(int firstNumber,int secondNumber)
         {
-            int temp = 0;
-            temp = firstNumber;
-            firstNumber = secondNumber;
-            secondNumber = temp;
+            firstNumber = firstNumber + secondNumber;
+            secondNumber = firstNumber - secondNumber;
+            firstNumber = firstNumber - secondNumber;
             Console.WriteLine("after Swapping values: " + firstNumber + " and " + secondNumber);
+            
         }
         
     }
