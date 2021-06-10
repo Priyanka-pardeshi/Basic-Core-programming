@@ -15,8 +15,8 @@ namespace Basic_Core
                 if (number % i == 0)
                 {
                     Console.WriteLine(i+",");
-                }
-            }
+                }//if close
+            }//for close
         }
     }
 }

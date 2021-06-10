@@ -14,9 +14,13 @@ namespace Basic_Core
             {
                 Console.WriteLine(number1 + "is Greater number");
             }
-            else if (number2 > number1 & number2 > number3)
+            if (number2 > number1 & number2 > number3)
             {
                 Console.WriteLine(number2 + "is Greater number");
+            }
+            if (number1 == number2 & number2 == number3 & number3 == number1)
+            {
+                Console.WriteLine("Three numbers are have same values ");
             }
             else
             {

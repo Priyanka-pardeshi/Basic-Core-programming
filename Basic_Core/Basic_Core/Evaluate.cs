@@ -10,8 +10,7 @@ namespace Basic_Core
     {
         public float Calculate(int value)
         {
-            float result=1
-                ;
+            float result = 1; ;
             for (float i = 1; i <= value; i++)
             {
                 result = result +(1 / i); 
